@@ -1,45 +1,47 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Prueba 1</title>
-    <link rel="stylesheet" href="./css/login.css" />
-  </head>
 
-  <body>
-    <script>
-      function go() {
-        if (
-          document.form.password.value == "admin" &&
-          document.form.login.value == "admin"
-        ) {
-          document.form.submit();
-        } else {
-          alert("Por favor ingrese nombre de usuario y contraseña correctos");
-        }
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Prueba 1</title>
+  <link rel="stylesheet" href="./css/login.css" />
+</head>
+
+<body>
+  <script language="script">
+    function go() {
+      if (
+        document.form.password.value == "admin" &&
+        document.form.login.value == "admin"
+      ) {
+        document.form.submit();
+      } else {
+        alert("Por favor ingrese nombre de usuario y contraseña correctos");
       }
-    </script>
-    <div class="box">
-      <span class="borderLine"></span>
-      <form action="">
-        <h2>Iniciar Sesión</h2>
-        <div class="inputBox">
-          <input type="text" required />
-          <span>Usuario</span>
-          <i></i>
-        </div>
-        <div class="inputBox">
-          <input type="password" required />
-          <span>Contraseña</span>
-          <i></i>
-        </div>
-        <div class="links">
-          <a href="#">Olvidé mi contraseña</a>
-          <a href="#">Iniciar</a>
-        </div>
-        <input type="submit" id="submit" value="Acceder" />
-      </form>
-    </div>
-  </body>
+    }
+  </script>
+  <div class="box">
+    <span class="borderLine"></span>
+    <form action="">
+      <h2>Iniciar Sesión</h2>
+      <div class="inputBox">
+        <input type="text" required />
+        <span>Usuario</span>
+        <i></i>
+      </div>
+      <div class="inputBox">
+        <input type="password" required />
+        <span>Contraseña</span>
+        <i></i>
+      </div>
+      <div class="links">
+        <a href="#">Olvidé mi contraseña</a>
+        <a href="#">Iniciar</a>
+      </div>
+      <input type="submit" id="submit" value="Acceder" />
+    </form>
+  </div>
+</body>
+
 </html>
