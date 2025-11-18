@@ -12,7 +12,7 @@ body {
   justify-content: center;
   align-items: center;
   min-height: 100vh;
-  background: #23252a;
+  background: wheat;
 }
 
 .box {
@@ -36,9 +36,9 @@ body {
     0deg,
     transparent,
     transparent,
-    #45f3ff,
-    #45f3ff,
-    #45f3ff
+    #00ff00,
+    #00ff00,
+    #00ff00
   );
   z-index: 1;
   transform-origin: bottom right;
@@ -56,9 +56,9 @@ body {
     0deg,
     transparent,
     transparent,
-    #45f3ff,
-    #45f3ff,
-    #45f3ff
+    #00ff00,
+    #00ff00,
+    #00ff00
   );
   z-index: 1;
   transform-origin: bottom right;
