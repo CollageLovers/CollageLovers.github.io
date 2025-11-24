@@ -13,12 +13,12 @@
       <form action="main.hmtl">
         <h2>Iniciar Sesión</h2>
         <div class="inputBox">
-          <input type="text" required />
+          <input type="text" name="login" required />
           <span>Usuario</span>
           <i></i>
         </div>
         <div class="inputBox">
-          <input type="password" required />
+          <input type="password" name="password" required />
           <span>Contraseña</span>
           <i></i>
         </div>
@@ -28,9 +28,9 @@
           <a href="#">Iniciar</a>
         </div>
         -->
-        <input type="submit" id="submit" value="Acceder" />
+        <input type="button" onclick="go()" id="submit" value="Acceder" />
       </form>
-      <script language="script" src="scriptLogin.js"></script>
+      <script src="scriptLogin.js"></script>
     </div>
   </body>
 </html>
