@@ -1,36 +1,39 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Prueba 1</title>
-    <link rel="stylesheet" href="./css/login.css" />
-  </head>
 
-  <body>
-    <div class="box">
-      <span class="borderLine"></span>
-      <form name="form" action="main.html">
-        <h2>Iniciar Sesión</h2>
-        <div class="inputBox">
-          <input type="text" name="login" required />
-          <span>Usuario</span>
-          <i></i>
-        </div>
-        <div class="inputBox">
-          <input type="password" name="password" required />
-          <span>Contraseña</span>
-          <i></i>
-        </div>
-        <!--
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Prueba 1</title>
+  <link rel="stylesheet" href="./css/login.css" />
+</head>
+
+<body>
+  <div class="box">
+    <span class="borderLine"></span>
+    <form name="form" action="main.html">
+      <h2>Iniciar Sesión</h2>
+      <img class="logo" src="./imagenes/logo_COLLAGE_LOVERS-sin_fondo.png">
+      <div class="inputBox">
+        <input type="text" name="login" required />
+        <span>Usuario</span>
+        <i></i>
+      </div>
+      <div class="inputBox">
+        <input type="password" name="password" required />
+        <span>Contraseña</span>
+        <i></i>
+      </div>
+      <!--
         <div class="links">
           <a href="#">Olvidé mi contraseña</a>
           <a href="#">Iniciar</a>
         </div>
         -->
-        <input type="button" onclick="go()" id="btnAcceder" value="Acceder" />
-      </form>
-      <script src="scriptLogin.js"></script>
-    </div>
-  </body>
+      <input type="button" onclick="go()" id="btnAcceder" value="Acceder" />
+    </form>
+    <script src="scriptLogin.js"></script>
+  </div>
+</body>
+
 </html>
