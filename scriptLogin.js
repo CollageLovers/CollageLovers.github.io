@@ -2,6 +2,7 @@ function go() {
   const box = document.querySelector(".box");
   const form = document.querySelector(".box form");
   const titulo = form.querySelector("h2"); // seleccionamos el <h2>
+  const spans = document.querySelectorAll(".box form .inputBox span");
   if (
     document.form.password.value === "admin" &&
     document.form.login.value === "admin"
@@ -11,6 +12,8 @@ function go() {
     box.style.backgroundColor = "white";
     form.style.background = "#ff0f0fff";
     titulo.textContent = "Credenciales Incorrectas";
+    titulo.style.fontSize = "16px";
+    spans.forEach((s) => (s.style.color = "#fff"));
   }
 }
 
